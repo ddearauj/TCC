@@ -1,0 +1,31 @@
+Assessing a set of additive utility functions for multicriteria decision making, the UTA method.
+
+
+1) Objetivo do Artigo:
+	Apresentar um processo de funções utilidades (UTA) como um conjunto de funcoes que são consistente com as preferencias a priori do tomador de decisao de um problema de decisão multicritério
+
+
+2) Funções Aditivias:
+
+	Numa decisão multicritério considera-se um conjunto A de ações avaliad por critérios g = (g1, g2, g3,..., gn)
+	Descobrir a preferencia daquele tomador de decisão é aggregar todos critérios numa função utilidade
+	U(g) = U(g1, g2, g3, ..., gn)
+
+	Sendo P relação de preferencia e I de indiferença e g(a) é a avaliação multicritério da ação "a" então temos que
+	
+	U[g(a)] > U[g(b)] --> entao aPb (ou seja, ele prefere "a" vs. "b")
+	U[g(a)] = U[g(b)] --> entao aIb (ou seja, ele é indiferente quanto a "a" vs. "b")
+
+	Normalmente, a função de utilidade é uma soma com pesos distribuidos
+
+	U(g) = SUM(peso * ui(gi))
+
+	AS PREFERENCIAS DEVEM SER INDEPENDENTES
+
+3) O Método UTA
+	
+	Dados de entrada:
+		G = [gi*, giˆ*], i de 1 a n
+		A preferencia subjectiva (que queremos determinar) tem uma relação R que pode ser P ou quando comparado com um set de acoes multicritério avaliadas em G
+
+	
